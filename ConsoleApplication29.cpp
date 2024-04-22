@@ -4,9 +4,9 @@ using namespace std;
 
 int main() {
 	int sum = 0;
-	for (int i = 1; i <= 10; i++) {
+	for (int i = 5; i <= 101001010; i++) {
 		sum = sum + i;
 	}
-	cout << "Сумма чисел от 1 до 10: " << sum << endl;
+	cout << "Сумма чисел от 5 до 101001010: " << sum << endl;
 	return 0;
 }
